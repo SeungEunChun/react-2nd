@@ -3,7 +3,7 @@ import './css/common.css'
 import Hd from './Component/Hd';
 import Banner from './Component/Banner';
 import Statecom from './Component/State';
-
+import Settime from './Component/settime';
 
 
 
@@ -14,6 +14,8 @@ root.render(
 
     <Banner></Banner>
     <Statecom></Statecom>
+    <Settime />
+
   </>
 
 );
