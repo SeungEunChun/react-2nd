@@ -1,0 +1,26 @@
+[
+    {
+        "background": "url(/img/slideshow/slide1.jpg",
+        "background-repeat": "no-repeat",
+        "background-position": "center",
+        "background-size": "cover"
+    },
+    {
+        "background": "url(/img/slideshow/slide2.jpg",
+        "background-repeat": "no-repeat",
+        "background-position": "center",
+        "background-size": "cover"
+    },
+    {
+        "background": "url(/img/slideshow/slide3.jpg",
+        "background-repeat": "no-repeat",
+        "background-position": "center",
+        "background-size": "cover"
+    },
+    {
+        "background": "url(/img/slideshow/slide4.jpg",
+        "background-repeat": "no-repeat",
+        "background-position": "center",
+        "background-size": "cover"
+    }
+]
