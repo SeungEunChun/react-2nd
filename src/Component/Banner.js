@@ -22,13 +22,10 @@ export default () => {
             onSwiper={(swiper) => console.log(swiper)}
 
             style={{ width: "1320px", height: "500px" }}>
-            {
-                banner.map((el, idx) => {
-                    return <SwiperSlide style={ }></SwiperSlide>
-                })
-            }
-
-
+            <SwiperSlide style={{ background: "url(/img/slideshow/slide1.jpg) no-repeat center 100%", backgroundSize: "cover" }}></SwiperSlide>
+            <SwiperSlide style={{ background: "url(/img/slideshow/slide2.jpg) no-repeat center 100%", backgroundSize: "cover" }}></SwiperSlide>
+            <SwiperSlide style={{ background: "url(/img/slideshow/slide3.jpg) no-repeat center 100%", backgroundSize: "cover" }}></SwiperSlide>
+            <SwiperSlide style={{ background: "url(/img/slideshow/slide4.jpg) no-repeat center 100%", backgroundSize: "cover" }}></SwiperSlide>
 
         </Swiper>
     );
