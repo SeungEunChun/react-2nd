@@ -1,0 +1,35 @@
+body {
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+#hd li a {
+    color: black;
+}
+
+#Logo:after {
+    content: "";
+    background-image: url(/public/img/logo/nasa_1.jpg);
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#Logo.hover:after {
+    background-image: url(/public/img/logo/pepsi_1.jpg);
+
+}
