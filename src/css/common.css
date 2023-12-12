@@ -29,7 +29,11 @@ li {
     background-size: cover;
 }
 
-#Logo.hover:after {
+#Logo:hover:after {
     background-image: url(/public/img/logo/pepsi_1.jpg);
 
+}
+
+.mt-50 {
+    margin-top: 50px;
 }

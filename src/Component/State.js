@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 
 import Silver from '../silver';
 
+
+
 function State() {
     const [varnum, varnumSet] = useState(1); //랜더링해서 화면의 새로운 데이터를 업데이트해주는 함수
 
@@ -25,6 +27,10 @@ function State() {
             <button onClick={varnumSetting}>숫자가 바뀐것을 감지하면 거기만 새로고침해줌</button>
             <br />
             <Silver></Silver>
+            <br />
+
+
+
 
         </>
     )
