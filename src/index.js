@@ -16,7 +16,6 @@ root.render(
 
     <Banner datasrc={banners.mainbanner}></Banner>
     <Statecom></Statecom>
-    <SetTime></SetTime>
   </>
 
 );

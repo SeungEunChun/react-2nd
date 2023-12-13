@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 function Silver() {
 
-    const [bgc, bgchange] = useState('white');
+    const [bgc, colorchange] = useState('white');
     document.body.style.backgroundColor = bgc;
 
     const cssChange = (bgc) => {
