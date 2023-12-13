@@ -4,7 +4,7 @@ import Hd from './Component/Hd';
 import Banner from './Component/Banner';
 import Statecom from './Component/State';
 import banners from './data/Banner.json'
-import SetTime from './Component/setTime';
+
 
 
 
