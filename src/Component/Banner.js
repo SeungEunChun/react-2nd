@@ -11,6 +11,7 @@ export default (props) => {
     return (
         <Swiper
             modules={[EffectFade, Autoplay]} effect="fade"
+            loop={true}
             autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
