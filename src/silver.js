@@ -1,14 +1,12 @@
 import React, { useState } from 'react'
 
-
-
 function Silver() {
 
     const [bgc, bgchange] = useState('white');
     document.body.style.backgroundColor = bgc;
 
-    const bg = (bgc) => {
-        bgchange(bgc.target.value);
+    const cssChange = (bgc) => {
+        colorchange(bgc.target.value);
         document.body.style.backgroundColor = bgc.target.value
     }
 
@@ -18,17 +16,11 @@ function Silver() {
 
 
     return (
-        <>
-            <h3>배경색</h3>
-            <input type="text" value={bgc} onChange={bg} />
-        </>
+        <div>
+            <h3>배경색을 입력해 주세요!</h3>
+            <input type="text" onChange={cssChange} value={bgc} />
+        </div>
     )
 }
 
 export default Silver
-
-
-
-
-
-
