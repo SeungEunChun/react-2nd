@@ -2,12 +2,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
-import banner from '../data/Banner.json';
 
 
 
 
-export default () => {
+
+export default (props) => {
     return (
         <Swiper
             modules={[EffectFade, Autoplay]} effect="fade"
@@ -21,12 +21,18 @@ export default () => {
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
 
-            style={{ width: "1320px", height: "500px" }}>
+            style={{ width: "1320px" }}>
             {
-                banner.map((el, idx) => {
-                    return <SwiperSlide style={ }></SwiperSlide>
+                props.datasrc.map((el, idx) => {
+                    return <SwiperSlide style={{ background: `url(/img/slideshow/${el.background}) no-repeat center`, height: "550px", backgroundSize: "100%" }} key={idx}>
+
+                    </SwiperSlide>
                 })
             }
+
+
+
+
 
 
 

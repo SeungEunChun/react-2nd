@@ -1,26 +1,34 @@
-[
-    {
-        "background": "url(/img/slideshow/slide1.jpg",
-        "background-repeat": "no-repeat",
-        "background-position": "center",
-        "background-size": "cover"
-    },
-    {
-        "background": "url(/img/slideshow/slide2.jpg",
-        "background-repeat": "no-repeat",
-        "background-position": "center",
-        "background-size": "cover"
-    },
-    {
-        "background": "url(/img/slideshow/slide3.jpg",
-        "background-repeat": "no-repeat",
-        "background-position": "center",
-        "background-size": "cover"
-    },
-    {
-        "background": "url(/img/slideshow/slide4.jpg",
-        "background-repeat": "no-repeat",
-        "background-position": "center",
-        "background-size": "cover"
-    }
-]
+{
+    "mainbanner": [
+        {
+            "background": "slide1.jpg"
+        },
+        {
+            "background": "slide2.jpg"
+        },
+        {
+            "background": "slide3.jpg"
+        },
+        {
+            "background": "slide4.jpeg"
+        }
+    ],
+    "ftinfo": "서울 종로구 명륜3가 돌돌이네",
+    "gnb": [
+        {
+            "nm": "회사소개",
+            "href": "#",
+            "target": "_blank"
+        },
+        {
+            "nm": "제품소개",
+            "href": "#",
+            "target": "_blank"
+        },
+        {
+            "nm": "고객센터",
+            "href": "#",
+            "target": "_blank"
+        }
+    ]
+}

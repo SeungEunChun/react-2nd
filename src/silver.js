@@ -4,13 +4,14 @@ import React, { useState } from 'react'
 
 function Silver() {
 
-    const [bgc, bgchange] = useState('black');
+    const [bgc, bgchange] = useState('white');
     document.body.style.backgroundColor = bgc;
 
     const bg = (bgc) => {
         bgchange(bgc.target.value);
         document.body.style.backgroundColor = bgc.target.value
     }
+
 
 
 
